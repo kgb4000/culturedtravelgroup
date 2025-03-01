@@ -96,7 +96,7 @@ export default function Nav() {
                     href="tel:240-665-3350"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900"
                   >
-                    <button className="py-4 px-8 rounded-xl bg-purple-500 text-white border-0">
+                    <button className="py-4 px-8 rounded-xl bg-orange-500 text-white border-0">
                       Call Monica
                     </button>
                   </a>

@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <div className="container max-w-full">
         <Hero
-          herotext="Napa Valley Wine Country Tour"
+          herotext="Napa Valley - Wine Country Tour"
           heroSubText="Travel with Monica on July 16th - 20th 2025 on an exclusive trip to wine country in Napa Valley, California"
           imageUrl="/images/nappa-valley-trip.png"
-          buttonText="Call Monica To Learn More &rarr;"
+          buttonText="Call Monica To Learn More"
           textColor="text-white"
         />
       </div>
@@ -29,14 +29,16 @@ export default function Home() {
                 <ReactPlayer
                   className="rounded-lg"
                   url="https://symphony.cdn.tambourine.com/meritage-hotel/media/tmr-reno-web-reel-66565ae00d291.mp4"
-                  muted={true}
                   playing={true}
                   width="100%"
                   height="auto"
                   loop={true}
                 />
               </div>
-              <div className=" max-w-2xl mx-auto mt-10">
+              <div className=" max-w-2xl mx-auto mt-10 px-6">
+                <p className="lg:text-4xl text-3xl my-4 text-center font-bold">
+                  July 16th - 20th 2025
+                </p>
                 <p className="lg:text-xl my-4">
                   Indulge in a four-night, five-day journey through the heart of
                   California wine country.
@@ -174,6 +176,7 @@ export default function Home() {
             />
           </section>
         </div>
+
         <div className="mx-auto my-10 px-6 bg-blue-50">
           <section id="packages" className="py-40">
             <h2 className="text-3xl max-w-xl font-bold text-center mx-auto uppercase">
@@ -198,10 +201,18 @@ export default function Home() {
             />
           </section>
         </div>
+        {/* <div className="bg-center bg-cover bg-no-repeat bg-body-img bg-fixed container flex items-center justify-center h-screen mx-auto">
+          <blockquote className="bg-gray-300 hover:bg-gray-400 transition duration-300 shadow-xl rounded-xl mx-4 p-4 text-center text-gray-800 md:p-8">
+            <p className="font-bold italic text-3xl">
+              &ldquo;Parallax effect adds depth by moving layers at different
+              speeds during scrolling.&rdquo;
+            </p>
+          </blockquote>
+        </div> */}
         <div className="container max-w-5xl mx-auto my-20 px-6">
           <section>
             <h2 className="text-3xl max-w-xl text-center mx-auto uppercase">
-              Your Nappa Valley Trip Includes
+              What's Included
             </h2>
             <div className=" max-w-2xl mx-auto my-10">
               <div>
