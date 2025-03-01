@@ -33,6 +33,7 @@ export default function Home() {
                   width="100%"
                   height="auto"
                   loop={true}
+                  muted={true}
                 />
               </div>
               <div className=" max-w-2xl mx-auto mt-10 px-6">
