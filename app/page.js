@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className=" max-w-2xl mx-auto mb-10">
               <h3 className="text-2xl font-bold">
-                Day 3: Wine Train Adventure and Bonfire Night
+                Day 3: Wine Train Adventure and Cozy Firepit Night
               </h3>
               <ul>
                 <li className="lg:text-xl my-4">
@@ -126,7 +126,7 @@ export default function Home() {
                 </li>
                 <li className="lg:text-xl my-4">
                   <span className="font-bold">Late Evening:</span> Gather around
-                  the bonfire, roast marshmallows, and share stories under the
+                  the firepit, roast marshmallows, and share stories under the
                   starry sky.
                 </li>
               </ul>
@@ -191,6 +191,7 @@ export default function Home() {
               </p>
               <p className="text-xl font-bold mb-10">
                 • $400.00 non-refundable deposit to save your space and monthly
+                payments
               </p>
             </div>
             <Button
@@ -269,7 +270,7 @@ export default function Home() {
             </h2>
             <div className=" max-w-2xl mx-auto my-10">
               <div>
-                <h3 className="text-2xl font-bold">• Airfaire</h3>
+                <h3 className="text-2xl font-bold">• Airfare:</h3>
                 <p className="lg:text-xl my-4 pl-4">
                   Flights to and from San Francisco International Airport.
                 </p>
