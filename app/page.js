@@ -10,10 +10,10 @@ export default function Home() {
     <>
       <div className="container max-w-full">
         <Hero
-          herotext="Nappa Valley"
-          heroSubText="Travel with us on July 16th - 20th 2025 on an exclusive "
+          herotext="Napa Valley"
+          heroSubText="Travel with Monica on July 16th - 20th 2025 on an exclusive trip to wine countyr in Napa Valley, California"
           imageUrl="/images/nappa-valley-trip.png"
-          buttonText="Call Monica To Lern More &rarr;"
+          buttonText="Call Monica To Learn More &rarr;"
           textColor="text-white"
         />
       </div>
