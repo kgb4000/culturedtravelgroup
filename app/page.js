@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="container max-w-full">
         <Hero
-          herotext="Napa Valley"
+          herotext="Napa Valley Wine Country Tour"
           heroSubText="Travel with Monica on July 16th - 20th 2025 on an exclusive trip to wine country in Napa Valley, California"
           imageUrl="/images/nappa-valley-trip.png"
           buttonText="Call Monica To Learn More &rarr;"

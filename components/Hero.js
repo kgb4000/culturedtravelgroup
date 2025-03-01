@@ -18,7 +18,7 @@ export default function Hero({
         }}
       >
         <div className="text-center px-6 py-32 sm:py-48 lg:py-56">
-          <h1 className="text-4xl md:text-7xl font-semibold text-white sm:text-7xl leading-normal max-w-4xl mx-auto drop-shadow-xl">
+          <h1 className="text-4xl md:text-7xl font-semibold text-white sm:text-7xl leading-normal max-w-2xl mx-auto drop-shadow-xl">
             {herotext}
           </h1>
           {heroSubText && (
