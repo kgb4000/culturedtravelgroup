@@ -47,10 +47,6 @@ export default function Home() {
                   experiences.
                 </p>
                 <p className="lg:text-xl my-4">
-                  Small group of no more than six travelers. Group hosted by
-                  Monica Browne
-                </p>
-                <p className="lg:text-xl my-4">
                   Let us take care of the details while you relax and savor the
                   beauty of Napa Valley.
                 </p>
