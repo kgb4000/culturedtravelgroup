@@ -50,8 +50,7 @@ export default function Nav() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href={calendly}
-              target="_blank"
+              href="tel:240-665-3350"
               className="text-sm/6 font-semibold text-black no-underline"
             >
               <button className="py-2 px-6 rounded-xl bg-purple-500 text-white border-0">
@@ -69,7 +68,7 @@ export default function Nav() {
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="text-black hover:no-underline font-bold">
-                <p>DMV Property Films</p>
+                <p>Cultured Travel Group</p>
               </a>
               <button
                 type="button"
@@ -94,11 +93,11 @@ export default function Nav() {
                 </div>
                 <div className="py-6">
                   <a
-                    href={calendly}
+                    href="tel:240-665-3350"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900"
                   >
                     <button className="py-4 px-8 rounded-xl bg-purple-500 text-white border-0">
-                      Book a Call With Kes
+                      Call Monica
                     </button>
                   </a>
                 </div>

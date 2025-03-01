@@ -27,7 +27,7 @@ export default function Hero({
             </p>
           )}
           {buttonText && (
-            <a href={calendly} target="_blank">
+            <a href="tel:240-665-3350">
               <button
                 className={`mt-10 lg:text-2xl ${textColor} ${borcerColor} border-2 py-6 px-8 rounded-2xl font-bold`}
               >
