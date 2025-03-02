@@ -54,9 +54,6 @@ export default function Home() {
                   beauty of Napa Valley.
                 </p>
               </div>
-              <p className="text-center lg:text-2xl italic mb-4">
-                Book your Napa Wine Tour Getaway Today?
-              </p>
               <Button
                 buttonText="Call Monica To Learn More"
                 bgColor="bg-orange-500"
@@ -194,8 +191,8 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <p className="text-center lg:text-2xl italic mb-4">
-                Ready to book your Napa Wine Tour Getaway?
+              <p className="text-center lg:text-2xl italic mb-4 max-w-sm mx-auto capitalize">
+                Ready to book your girls Getaway Napa Wine Tour in July 2025?
               </p>
               <Button
                 buttonText="Call Monica To Learn More"
@@ -323,8 +320,8 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <p className="text-center lg:text-2xl italic mb-4">
-              Ready to book your Napa Wine Tour Getaway?
+            <p className="text-center lg:text-2xl italic mb-4 max-w-sm mx-auto capitalize">
+              Ready to book your girls Getaway Napa Wine Tour in July 2025?
             </p>
             <Button
               buttonText="Call Monica to Book Now"
@@ -551,8 +548,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <p className="text-center lg:text-2xl italic mb-4">
-              Ready to book your Napa Wine Tour Getaway?
+            <p className="text-center lg:text-2xl italic mb-4 max-w-sm mx-auto capitalize">
+              Ready to book your girls Getaway Napa Wine Tour in July 2025?
             </p>
             <Button
               buttonText="Call Monica Today"
