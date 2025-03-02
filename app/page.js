@@ -54,8 +54,11 @@ export default function Home() {
                   beauty of Napa Valley.
                 </p>
               </div>
+              <p className="text-center text-2xl italic mb-4">
+                Book your Napa Wine Tour Getaway Today?
+              </p>
               <Button
-                buttonText="Call Monica Today"
+                buttonText="Call Monica to Book Your Tour"
                 bgColor="bg-orange-500"
                 textColor="text-white"
                 textSize="text-xl"
@@ -191,8 +194,11 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
+              <p className="text-center text-2xl italic mb-4">
+                Ready to book your Napa Wine Tour Getaway?
+              </p>
               <Button
-                buttonText="Call Monica Today"
+                buttonText="Call Monica To Learn More"
                 bgColor="bg-orange-500"
                 textColor="text-white"
                 textSize="text-xl"
@@ -317,6 +323,9 @@ export default function Home() {
                 </ul>
               </div>
             </div>
+            <p className="text-center text-2xl italic mb-4">
+              Ready to book your Napa Wine Tour Getaway?
+            </p>
             <Button
               buttonText="Call Monica to Book Now"
               bgColor="bg-orange-500"
@@ -362,135 +371,65 @@ export default function Home() {
             </p>
           </blockquote>
         </div> */}
-        <div className="container max-w-9xl mx-auto my-20 px-6">
-          <div className="grid lg:grid-cols-2 gap-x-10">
-            <section>
-              <h2 className="text-3xl lg:text-5xl max-w-xl text-center mx-auto uppercase">
-                What's Included
-              </h2>
-              <div className=" max-w-2xl mx-auto my-10">
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Luxurious Accommodations
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Stay in a stylish boutique hotel in the heart of Napa
-                    Valley. (Single and double occupancy available.)
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Gourmet Dining
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Enjoy a welcome gathering, daily continental breakfast, a
-                    Michelin-star dining experience, vineyard picnic, a farewell
-                    brunch.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Exclusive Wine Tastings
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Experience a private wine tasting at a renowned winery.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    {' '}
-                    Napa Valley Wine Train
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Embark on a scenic journey through the vineyards, indulging
-                    in a gourmet lunch and wine tasting.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Round-trip Airport Transfers
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Seamless transportation from San Francisco International
-                    Airport to your hotel. Welcome gift and swag bag.
-                  </p>
-                </div>
-              </div>
-            </section>
-            <section>
-              <h2 className="text-3xl lg:text-5xl max-w-xl text-center mx-auto uppercase">
-                Not Included
-              </h2>
-              <div className=" max-w-2xl mx-auto my-10">
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">Airfare</h3>
-                  <p className="lg:text-2xl my-4">
-                    Flights to and from San Francisco International Airport.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Spa Treatments
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Book and pay for any treatments on your own.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Any meals not mentioned as being included above
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Experience a private wine tasting at a renowned winery.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Additional Alcoholic Beverages
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    While wine tastings are included, additional alcoholic
-                    beverages are at your own expense.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Personal Shopping
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    Any personal purchases made during your trip.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">Gratuities</h3>
-                  <p className="lg:text-2xl my-4">
-                    Tips for your tour guide, driver, and hotel staff.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-2xl lg:text-3xl font-bold">
-                    Travel Insurance
-                  </h3>
-                  <p className="lg:text-2xl my-4">
-                    We recommend purchasing travel insurance to protect your
-                    investment.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-          <Button
-            buttonText="Call Monica Today"
-            bgColor="bg-orange-500"
-            textColor="text-white"
-            textSize="text-xl"
-          />
-        </div>
-
-        {/* <div className="container max-w-5xl mx-auto my-20 px-6">
+        <div className="container max-w-5xl mx-auto my-20 px-6">
           <section>
             <h2 className="text-3xl lg:text-5xl max-w-xl text-center mx-auto uppercase">
-              What's Not Included
+              What's Included
+            </h2>
+            <div className=" max-w-2xl mx-auto my-10">
+              <div>
+                <h3 className="text-2xl lg:text-3xl font-bold">
+                  Luxurious Accommodations
+                </h3>
+                <p className="lg:text-2xl my-4">
+                  Stay in a stylish boutique hotel in the heart of Napa Valley.
+                  (Single and double occupancy available.)
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl lg:text-3xl font-bold">
+                  Gourmet Dining
+                </h3>
+                <p className="lg:text-2xl my-4">
+                  Enjoy a welcome gathering, daily continental breakfast, a
+                  Michelin-star dining experience, vineyard picnic, a farewell
+                  brunch.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl lg:text-3xl font-bold">
+                  Exclusive Wine Tastings
+                </h3>
+                <p className="lg:text-2xl my-4">
+                  Experience a private wine tasting at a renowned winery.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl lg:text-3xl font-bold">
+                  {' '}
+                  Napa Valley Wine Train
+                </h3>
+                <p className="lg:text-2xl my-4">
+                  Embark on a scenic journey through the vineyards, indulging in
+                  a gourmet lunch and wine tasting.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-2xl lg:text-3xl font-bold">
+                  Round-trip Airport Transfers
+                </h3>
+                <p className="lg:text-2xl my-4">
+                  Seamless transportation from San Francisco International
+                  Airport to your hotel. Welcome gift and swag bag.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div className="container max-w-5xl mx-auto my-20 px-6">
+          <section>
+            <h2 className="text-3xl lg:text-5xl max-w-xl text-center mx-auto uppercase">
+              Not Included
             </h2>
             <div className=" max-w-2xl mx-auto my-10">
               <div>
@@ -548,6 +487,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            <p className="text-center text-2xl italic mb-4">
+              Ready to book your Napa Wine Tour Getaway?
+            </p>
             <Button
               buttonText="Call Monica Today"
               bgColor="bg-orange-500"
@@ -555,7 +497,68 @@ export default function Home() {
               textSize="text-xl"
             />
           </section>
-        </div> */}
+        </div>
+        <div className="container max-w-5xl mx-auto my-20 px-6">
+          <section>
+            <h2 className="text-3xl lg:text-5xl max-w-xl text-center mx-auto uppercase">
+              About Monica
+            </h2>
+            <div className=" max-w-5xl mx-auto my-10 grid lg:grid-cols-2 gap-x-10 items-center">
+              <div>
+                <img
+                  src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631816208/monica_cqphqb.jpg"
+                  alt="Monica Browne"
+                  width="100%"
+                  height="auto"
+                />
+              </div>
+              <div>
+                <p className="lg:text-2xl my-4">
+                  Monica, the visionary behind Cultured Travel Group, is a true
+                  embodiment of the adventurous spirit.
+                </p>
+                <p className="lg:text-2xl my-4">
+                  Her passion for travel ignited early in life, as she embarked
+                  on countless journeys, exploring diverse cultures and
+                  landscapes.
+                </p>
+                <p className="lg:text-2xl my-4">
+                  These experiences instilled in her a deep appreciation for the
+                  world's beauty and the power of travel to transform lives.
+                </p>
+                <p className="lg:text-2xl my-4">
+                  Monica wants to reach every corner of the globe, from the
+                  bustling metropolises of Asia to the serene glaciers in
+                  Iceland.
+                </p>
+                <p className="lg:text-2xl my-4">
+                  She has a keen eye for detail and a knack for discovering
+                  hidden gems, ensuring that every trip she curates is a unique
+                  and unforgettable experience.
+                </p>
+                <p className="lg:text-2xl my-4">
+                  Beyond her love for travel, Monica is a strong advocate for
+                  empowering Black women.
+                </p>
+                <p className="lg:text-2xl my-4">
+                  She recognizes the unique challenges and desires of her
+                  clientele, and she is committed to creating safe, inclusive,
+                  and enriching travel experiences that celebrate Black
+                  womanhood.
+                </p>
+              </div>
+            </div>
+            <p className="text-center text-2xl italic mb-4">
+              Ready to book your Napa Wine Tour Getaway?
+            </p>
+            <Button
+              buttonText="Call Monica Today"
+              bgColor="bg-orange-500"
+              textColor="text-white"
+              textSize="text-xl"
+            />
+          </section>
+        </div>
       </main>
     </>
   )
