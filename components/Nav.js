@@ -4,9 +4,6 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const calendly =
-  'https://calendly.com/mbweddings/fifteen-minute-call-with-monica-browne?'
-
 const navigation = [
   { name: 'Trip Details', href: '#itinerary' },
   { name: 'Packages', href: '#packages' },

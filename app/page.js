@@ -58,7 +58,7 @@ export default function Home() {
                 Book your Napa Wine Tour Getaway Today?
               </p>
               <Button
-                buttonText="Call Monica to Book Your Tour"
+                buttonText="Call Monica To Learn More"
                 bgColor="bg-orange-500"
                 textColor="text-white"
                 textSize="lg:text-xl"
@@ -221,7 +221,7 @@ export default function Home() {
           </div>
         </div>
         <div className="container max-w-9xl mx-auto my-20 px-6">
-          <section id="packages">
+          <section>
             <h2 className="text-2xl lg:text-5xl max-w-xl text-center mx-auto uppercase mb-6 lg:mb-10">
               Accommodations
             </h2>
@@ -487,7 +487,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <p className="text-center lg:text-2xl italic mb-4">
+            {/* <p className="text-center lg:text-2xl italic mb-4">
               Ready to book your Napa Wine Tour Getaway?
             </p>
             <Button
@@ -495,7 +495,7 @@ export default function Home() {
               bgColor="bg-orange-500"
               textColor="text-white"
               textSize="lg:text-xl"
-            />
+            /> */}
           </section>
         </div>
         <div className="container max-w-5xl mx-auto my-20 px-6">
