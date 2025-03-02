@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: 'Napa Valley Wine Country Trip | Cultured Travel Group',
+  title:
+    'Napa Valley Wine Country Tour | July 16th - 20th 2025 | Cultured Travel Group',
   description:
     "Indulge in a four-night, five-day journey in California's wine country. Get luxurious accommodations, gourmet meals, exclusive wine tastings, and more.",
   alternates: {
