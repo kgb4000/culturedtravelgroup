@@ -3,7 +3,6 @@ export default function Button({
   bgColor,
   textColor,
   borderWidth,
-  borderStyle,
   textSize,
 }) {
   return (

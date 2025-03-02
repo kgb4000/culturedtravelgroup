@@ -54,14 +54,14 @@ export default function Home() {
                   beauty of Napa Valley.
                 </p>
               </div>
-              <p className="text-center text-2xl italic mb-4">
+              <p className="text-center lg:text-2xl italic mb-4">
                 Book your Napa Wine Tour Getaway Today?
               </p>
               <Button
                 buttonText="Call Monica to Book Your Tour"
                 bgColor="bg-orange-500"
                 textColor="text-white"
-                textSize="text-xl"
+                textSize="lg:text-xl"
               />
             </div>
           </section>
@@ -194,14 +194,14 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <p className="text-center text-2xl italic mb-4">
+              <p className="text-center lg:text-2xl italic mb-4">
                 Ready to book your Napa Wine Tour Getaway?
               </p>
               <Button
                 buttonText="Call Monica To Learn More"
                 bgColor="bg-orange-500"
                 textColor="text-white"
-                textSize="text-xl"
+                textSize="lg:text-xl"
               />
             </section>
           </div>
@@ -323,14 +323,14 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <p className="text-center text-2xl italic mb-4">
+            <p className="text-center lg:text-2xl italic mb-4">
               Ready to book your Napa Wine Tour Getaway?
             </p>
             <Button
               buttonText="Call Monica to Book Now"
               bgColor="bg-orange-500"
               textColor="text-white"
-              textSize="text-xl"
+              textSize="lg:text-xl"
             />
           </section>
         </div>
@@ -357,7 +357,7 @@ export default function Home() {
                   buttonText="Call Monica to Book Now"
                   bgColor="bg-orange-500"
                   textColor="text-white"
-                  textSize="text-xl"
+                  textSize="lg:text-xl"
                 />
               </div>
             </section>
@@ -487,14 +487,14 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <p className="text-center text-2xl italic mb-4">
+            <p className="text-center lg:text-2xl italic mb-4">
               Ready to book your Napa Wine Tour Getaway?
             </p>
             <Button
               buttonText="Call Monica Today"
               bgColor="bg-orange-500"
               textColor="text-white"
-              textSize="text-xl"
+              textSize="lg:text-xl"
             />
           </section>
         </div>
@@ -507,7 +507,7 @@ export default function Home() {
               <div>
                 <img
                   src="https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631816208/monica_cqphqb.jpg"
-                  alt="Monica Browne"
+                  alt="Monica Browne, owner of Cultured Travel Group."
                   width="100%"
                   height="auto"
                 />
@@ -548,14 +548,14 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <p className="text-center text-2xl italic mb-4">
+            <p className="text-center lg:text-2xl italic mb-4">
               Ready to book your Napa Wine Tour Getaway?
             </p>
             <Button
               buttonText="Call Monica Today"
               bgColor="bg-orange-500"
               textColor="text-white"
-              textSize="text-xl"
+              textSize="lg:text-xl"
             />
           </section>
         </div>
