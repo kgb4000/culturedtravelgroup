@@ -76,8 +76,8 @@ export default function Nav() {
               </button>
             </div>
             <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
+              <div className="-my-6">
+                {/* <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <a
                       key={item.name}
@@ -87,8 +87,16 @@ export default function Nav() {
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="py-6">
+                </div> */}
+                <p className="my-6">
+                  Indulge in a four-night, five-day journey through the heart of
+                  California wine country. Our curated itinerary includes
+                  luxurious accommodations, gourmet meals, exclusive wine
+                  tastings, and unforgettable experiences. Let us take care of
+                  the details while you relax and savor the beauty of Napa
+                  Valley.
+                </p>
+                <div>
                   <a
                     href="tel:240-665-3350"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900"
