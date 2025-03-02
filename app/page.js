@@ -36,7 +36,7 @@ export default function Home() {
                   controls
                 />
               </div>
-              <div className=" max-w-2xl mx-auto mt-10 px-6">
+              <div className=" max-w-2xl mx-auto mt-10">
                 <p className="lg:text-4xl text-3xl my-4 text-center font-bold">
                   July 16th - 20th 2025
                 </p>
@@ -334,9 +334,12 @@ export default function Home() {
             />
           </section>
         </div>
-        <div className='bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal], bg-[url("/images/four-black-women-at-winery-1.jpeg")] bg-no-repeat bg-center bg-cover'>
+        <div
+          id="packages"
+          className='bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal], bg-[url("/images/four-black-women-at-winery-1.jpeg")] bg-no-repeat bg-center bg-cover'
+        >
           <div className="mx-auto my-10 px-6">
-            <section id="packages" className="py-40">
+            <section className="py-40">
               <div className="border-4 max-w-xl py-20 px-10 mx-auto text-white">
                 <h2 className="text-3xl lg:text-5xl max-w-xl font-bold text-center mx-auto uppercase">
                   Well-deserved Escape Cost
